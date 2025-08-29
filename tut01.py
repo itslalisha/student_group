@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 import math
+import openpyxl
 
 class StudentDataAnalyser:
     def __init__(self):
