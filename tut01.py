@@ -3,12 +3,6 @@ import pandas as pd
 import os
 import math
 
-try:
-    import openpyxl
-except ImportError:
-    import subprocess, sys
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
-    import openpyxl
 
 class StudentDataAnalyser:
     def __init__(self):
