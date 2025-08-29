@@ -4,10 +4,10 @@ streamlit>=1.28.0
 pandas>=2.0.0
 
 # Excel file handling
-openpyxl>=3.1.0
+openpyxl>=3.1.5
 
 # Additional Excel support (backup)
-xlrd>=2.0.1
+xlrd>=2.0.2
 
 # Optional: For enhanced Excel compatibility
 xlsxwriter>=3.1.0
